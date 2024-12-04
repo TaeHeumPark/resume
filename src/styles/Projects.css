@@ -1,0 +1,99 @@
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .projects-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .projects-section.mobile .projects-title {
+    font-size: 1.5rem;
+  }
+  
+  /* Project Container */
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .project-container.mobile {
+    flex-direction: column;
+  }
+  
+  /* 제목 */
+  .project-left {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .project-left.mobile {
+    text-align: center;
+  }
+  
+  .project-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .project-role {
+    font-size: 1.125rem;
+  }
+  
+  .project-left.mobile .project-name {
+    font-size: 1.25rem;
+  }
+  
+  .project-left.mobile .project-role {
+    font-size: 1rem;
+  }
+  
+  /* 내용 */
+  .project-right {
+    flex: 2;
+    text-align: left;
+  }
+  
+  .project-right.mobile {
+    text-align: center;
+  }
+  
+  .project-section-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .project-content {
+    font-size: 1.125rem;
+  }
+  
+  .project-content.mobile {
+    font-size: 1rem;
+  }
+  
+  /* Tasks */
+  .project-tasks {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-task {
+    font-size: 1.125rem;
+    margin-bottom: 5px;
+  }
+  
+  .project-task.mobile {
+    font-size: 1rem;
+  }
+  
