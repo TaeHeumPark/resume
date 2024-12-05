@@ -7,7 +7,7 @@ function About() {
   return (
     <section
       style={{
-        padding: '20px',
+        padding: '20px 0',
         maxWidth: isMobile ? '90%' : '63%',
         margin: '0 auto',
         textAlign: isMobile ? 'left' : 'center',

@@ -9,10 +9,10 @@ function Links() {
   return (
     <section
       style={{
-        padding: '20px',
         backgroundColor: '#f8f8f8',
         textAlign: 'center',
         marginTop: '20px',
+        paddingBottom: '20px'
       }}
     >
       <h2 style={{ textAlign: 'center', fontSize: '2rem', margin: '20px 0' }}>Links</h2>
